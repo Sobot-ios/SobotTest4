@@ -8,22 +8,22 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/Sobot-ios/SobotTest4"
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Sobot-ios" => "lizh@sobot.com" }
   s.source           = { :git => "https://github.com/Sobot-ios/SobotTest4.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/NAME'
 
-  s.platform     = :ios, '6.0'
+
+  s.platform     = :ios, "8.0"
   # s.ios.deployment_target = '6.4'
   # s.osx.deployment_target = '10.10'
   s.requires_arc = true
 
-  s.source_files = 'https://github.com/Sobot-ios/SobotTest4.git'
+  s.source_files  = "Classes", "SobotTest4/SobotTest4/Classes/**/*.{h,m}"
   # s.resources = 'Assets'
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
-  s.frameworks = 'Foundation','UIKit'
+  # s.framework  = "SomeFramework"
 
 end
