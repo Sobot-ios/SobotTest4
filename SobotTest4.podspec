@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.10'
   s.requires_arc = true
 
-  s.source_files  = "Classes", "SobotTest4/SobotTest4/Classes/**/*.{h,m}"
+  s.source_files  = "SobotTest4.a"
   # s.resources = 'Assets'
 
   # s.ios.exclude_files = 'Classes/osx'
