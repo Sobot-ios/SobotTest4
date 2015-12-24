@@ -18,12 +18,12 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.10'
   s.requires_arc = true
 
-  s.source_files  = "SobotTest4.a"
+s.source_files  = "SobotTest4.{h,m}"
   # s.resources = 'Assets'
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
+
   # s.framework  = "SomeFramework"
 
 end
